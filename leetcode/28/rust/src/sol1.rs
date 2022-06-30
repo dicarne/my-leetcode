@@ -9,7 +9,6 @@ impl Solution {
             return 0;
         }
         let next = Solution::gen_next(needle.as_str());
-        println!("{:?}", next);
         let mut i = 0;
         let mut j: i32 = 0;
         while i < str1.len() && j < str2.len() as i32 {
